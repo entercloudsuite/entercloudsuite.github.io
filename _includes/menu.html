@@ -1,0 +1,30 @@
+<nav class="menuWrapper">
+  <ul class="menu-avatar">
+    <li>
+      <a href="{{ site.baseurl }}" class="brandLogo brandLogo--small
+      {% if page.bgContrast == "light" %}
+        brandLogo--black
+      {% endif %}
+      ">{{ site.name }}</a>
+    </li>
+  </ul>
+  <ul class="navigation-links">
+    <li><a href="http://www.entercloudsuite.com" target="_blank" class="
+      {% if page.bgContrast == "dark" %}
+        nav-white
+      {% endif %}
+      ">ECS.COM</a></li>
+    <li><a href="/feed.xml">{% if page.bgContrast == "light" %}<img src="../assets/images/rss--black.svg">{% else %}<img src="../assets/images/rss--white.svg">{% endif %}</a></li>
+  </ul>
+    
+<!--
+      <ul class="list list--avatarMenu hidden">
+        <li class="list-item"><a href="">Twitter</a></li>
+        <li class="list-item"><a href="">LinkedIn</a></li>
+        <li class="list-item"><a href="">Quora</a></li>
+        <li class="list-item"><a href="">Dribbble</a></li>
+        <li class="list-item"><a href="">Kiva</a></li>
+      </ul>
+-->
+
+</nav>

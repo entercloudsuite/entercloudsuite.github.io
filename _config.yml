@@ -1,0 +1,43 @@
+
+# Syntax highlighting
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+permalink:           /:categories/:title
+
+# Setup
+timezone:            Europe/Rome
+locale:              it_it
+name:				         Enter Cloud Suite Guides
+title:               Enter Cloud Suite Guides
+tagline:             'Learn how to use Enter Cloud Suite'
+description:         'Learn how to use Enter Cloud Suite, the European cloud computing platform based on OpenStack.'
+url:                 entercloudsuite.github.io
+rss:                 rss feed url
+baseurl:             '/'
+baseurl_posts_img:   '/assets/images/posts/'
+baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_thumbnail: '/assets/images/thumbnail/'
+baseurl_javascripts: '/assets/javascripts/'
+icon:                '/assets/apple-touch-icon-144-precomposed.png'
+
+author:
+  name:           	 Enter Cloud Suite
+  url:            	 entercloudsuite.com
+  facebook:          entersrl
+  twitter:           enterteam
+  linkedin:          company/enter
+
+# Server
+destination:      	 ./_site
+exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+port:             	 4000
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
