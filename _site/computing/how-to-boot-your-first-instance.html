@@ -111,7 +111,7 @@
       
         nav-white
       
-      ">ECS.COM</a></li>
+      ">ecs.com</a></li>
     <li><a href="/feed.xml"><img src="../assets/images/rss--white.svg"></a></li>
   </ul>
     
@@ -174,22 +174,41 @@
       <div class="content-body">
 
         <ol>
-<li><p>Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.</p></li>
-<li><p>Click on <strong>Computing &gt; Instances</strong> on the left menu.</p></li>
-<li><p>Click on <strong>Launch instance</strong> on top right of the dashboard.</p></li>
-<li><p>Choose a name for the instance you are going to spin up</p></li>
-<li><p>Select a Region you want your instance to be run into (Italy-Milano1, Germany-Frankfurt1 or Netherlands-Amsterdam1)</p></li>
-<li><p>Pick a flavor to define the virtual hardware specifications (CPU, RAM and HDD) of your instance.<br>
-<em>Note: if you are exceeding your configured quotas, some flavors may be grayed out accordingly.</em></p></li>
-<li><p>Select an image to boot your instance from: this is the software template you are going to use to run your instance. May be a standard template provided by Enter (e.g. Ubuntu Linux or Windows 2008R2) or a snapshot previously taken from a user&#39;s instance.</p></li>
-<li><p>Define if the instance shall be provisioned with a public Internet facing IP or with a private IP for internal use only. <em>Note: if you didn&#39;t provision a a router or a network (LAN or subnet)inside your tenant, the system will configure it for you. If you already set-up your single network with a single LAN, the system will pick the existing one automatically. If you configured more networks, you will be prompted to choose the one you want your instance to connect to.</em></p></li>
-<li><p>Define the public SSH key you are going to use to access your instance: import an existing one, create a new keypair or select an already uploaded key from the following menu. Should you choose to create a new keypair, you will be prompted to download the private key once you click on &quot;Launch instance&quot; at the form bottom. <em>Note: all SSH keypairs are visible only region-wide: if you are launching an instance in IT-MIL1, make sure the key you want to use is available in this region as well.</em></p></li>
-<li><p>Schedule automated backups for your instance: this feature allows you to define periodic snapshots in order to free you from the hassle of taking manual copies of your environments.</p></li>
+  <li>
+    <p>Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.</p>
+  </li>
+  <li>
+    <p>Click on <strong>Computing &gt; Instances</strong> on the left menu.</p>
+  </li>
+  <li>
+    <p>Click on <strong>Launch instance</strong> on top right of the dashboard.</p>
+  </li>
+  <li>
+    <p>Choose a name for the instance you are going to spin up</p>
+  </li>
+  <li>
+    <p>Select a Region you want your instance to be run into (Italy-Milano1, Germany-Frankfurt1 or Netherlands-Amsterdam1)</p>
+  </li>
+  <li>
+    <p>Pick a flavor to define the virtual hardware specifications (CPU, RAM and HDD) of your instance.<br />
+<em>Note: if you are exceeding your configured quotas, some flavors may be grayed out accordingly.</em></p>
+  </li>
+  <li>
+    <p>Select an image to boot your instance from: this is the software template you are going to use to run your instance. May be a standard template provided by Enter (e.g. Ubuntu Linux or Windows 2008R2) or a snapshot previously taken from a user’s instance.</p>
+  </li>
+  <li>
+    <p>Define if the instance shall be provisioned with a public Internet facing IP or with a private IP for internal use only. <em>Note: if you didn’t provision a a router or a network (LAN or subnet)inside your tenant, the system will configure it for you. If you already set-up your single network with a single LAN, the system will pick the existing one automatically. If you configured more networks, you will be prompted to choose the one you want your instance to connect to.</em></p>
+  </li>
+  <li>
+    <p>Define the public SSH key you are going to use to access your instance: import an existing one, create a new keypair or select an already uploaded key from the following menu. Should you choose to create a new keypair, you will be prompted to download the private key once you click on “Launch instance” at the form bottom. <em>Note: all SSH keypairs are visible only region-wide: if you are launching an instance in IT-MIL1, make sure the key you want to use is available in this region as well.</em></p>
+  </li>
+  <li>
+    <p>Schedule automated backups for your instance: this feature allows you to define periodic snapshots in order to free you from the hassle of taking manual copies of your environments.</p>
+  </li>
 </ol>
 
-<h4>That&#39;s it!</h4>
-
-<p>You&#39;re ready to proceed and click &quot;Launch Instance&quot;. It will take around 10 seconds before your instance will be available for logon (a bit more if you chose a snapshot as an image).</p>
+<h4 id="thats-it">That’s it!</h4>
+<p>You’re ready to proceed and click “Launch Instance”. It will take around 10 seconds before your instance will be available for logon (a bit more if you chose a snapshot as an image).</p>
 
 
       </div>

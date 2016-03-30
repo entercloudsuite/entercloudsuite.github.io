@@ -5,29 +5,48 @@
     <description>Learn how to use Enter Cloud Suite, the European cloud computing platform based on OpenStack.</description>
     <link>entercloudsuite.github.io//</link>
     <atom:link href="entercloudsuite.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Mar 2016 19:16:33 +0200</pubDate>
-    <lastBuildDate>Tue, 29 Mar 2016 19:16:33 +0200</lastBuildDate>
+    <pubDate>Wed, 30 Mar 2016 11:21:22 +0200</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2016 11:21:22 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>How to boot your first instance</title>
         <description>&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Log into the &lt;a href=&quot;https://dashboard.entercloudsuite.com&quot; target=&quot;_blank&quot;&gt;Enter Cloud Suite Dashboard&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Click on &lt;strong&gt;Computing &amp;gt; Instances&lt;/strong&gt; on the left menu.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Click on &lt;strong&gt;Launch instance&lt;/strong&gt; on top right of the dashboard.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Choose a name for the instance you are going to spin up&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Select a Region you want your instance to be run into (Italy-Milano1, Germany-Frankfurt1 or Netherlands-Amsterdam1)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Pick a flavor to define the virtual hardware specifications (CPU, RAM and HDD) of your instance.&lt;br&gt;
-&lt;em&gt;Note: if you are exceeding your configured quotas, some flavors may be grayed out accordingly.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Select an image to boot your instance from: this is the software template you are going to use to run your instance. May be a standard template provided by Enter (e.g. Ubuntu Linux or Windows 2008R2) or a snapshot previously taken from a user&amp;#39;s instance.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Define if the instance shall be provisioned with a public Internet facing IP or with a private IP for internal use only. &lt;em&gt;Note: if you didn&amp;#39;t provision a a router or a network (LAN or subnet)inside your tenant, the system will configure it for you. If you already set-up your single network with a single LAN, the system will pick the existing one automatically. If you configured more networks, you will be prompted to choose the one you want your instance to connect to.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Define the public SSH key you are going to use to access your instance: import an existing one, create a new keypair or select an already uploaded key from the following menu. Should you choose to create a new keypair, you will be prompted to download the private key once you click on &amp;quot;Launch instance&amp;quot; at the form bottom. &lt;em&gt;Note: all SSH keypairs are visible only region-wide: if you are launching an instance in IT-MIL1, make sure the key you want to use is available in this region as well.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Schedule automated backups for your instance: this feature allows you to define periodic snapshots in order to free you from the hassle of taking manual copies of your environments.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Log into the &lt;a href=&quot;https://dashboard.entercloudsuite.com&quot; target=&quot;_blank&quot;&gt;Enter Cloud Suite Dashboard&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click on &lt;strong&gt;Computing &amp;gt; Instances&lt;/strong&gt; on the left menu.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click on &lt;strong&gt;Launch instance&lt;/strong&gt; on top right of the dashboard.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Choose a name for the instance you are going to spin up&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select a Region you want your instance to be run into (Italy-Milano1, Germany-Frankfurt1 or Netherlands-Amsterdam1)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pick a flavor to define the virtual hardware specifications (CPU, RAM and HDD) of your instance.&lt;br /&gt;
+&lt;em&gt;Note: if you are exceeding your configured quotas, some flavors may be grayed out accordingly.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select an image to boot your instance from: this is the software template you are going to use to run your instance. May be a standard template provided by Enter (e.g. Ubuntu Linux or Windows 2008R2) or a snapshot previously taken from a user’s instance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define if the instance shall be provisioned with a public Internet facing IP or with a private IP for internal use only. &lt;em&gt;Note: if you didn’t provision a a router or a network (LAN or subnet)inside your tenant, the system will configure it for you. If you already set-up your single network with a single LAN, the system will pick the existing one automatically. If you configured more networks, you will be prompted to choose the one you want your instance to connect to.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define the public SSH key you are going to use to access your instance: import an existing one, create a new keypair or select an already uploaded key from the following menu. Should you choose to create a new keypair, you will be prompted to download the private key once you click on “Launch instance” at the form bottom. &lt;em&gt;Note: all SSH keypairs are visible only region-wide: if you are launching an instance in IT-MIL1, make sure the key you want to use is available in this region as well.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Schedule automated backups for your instance: this feature allows you to define periodic snapshots in order to free you from the hassle of taking manual copies of your environments.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4&gt;That&amp;#39;s it!&lt;/h4&gt;
-
-&lt;p&gt;You&amp;#39;re ready to proceed and click &amp;quot;Launch Instance&amp;quot;. It will take around 10 seconds before your instance will be available for logon (a bit more if you chose a snapshot as an image).&lt;/p&gt;
+&lt;h4 id=&quot;thats-it&quot;&gt;That’s it!&lt;/h4&gt;
+&lt;p&gt;You’re ready to proceed and click “Launch Instance”. It will take around 10 seconds before your instance will be available for logon (a bit more if you chose a snapshot as an image).&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Mar 2016 02:00:00 +0200</pubDate>
         <link>entercloudsuite.github.io//computing/how-to-boot-your-first-instance</link>
@@ -50,33 +69,42 @@
 
 &lt;blockquote class=&quot;largeQuote&quot;&gt;“All our dreams can come true, if we have the courage to pursue them.” - Walt Disney&lt;/blockquote&gt;
 
-&lt;h1&gt;H1&lt;/h1&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
 
-&lt;h2&gt;H2&lt;/h2&gt;
+&lt;h2 id=&quot;h2&quot;&gt;H2&lt;/h2&gt;
 
-&lt;h3&gt;H3&lt;/h3&gt;
+&lt;h3 id=&quot;h3&quot;&gt;H3&lt;/h3&gt;
 
-&lt;h4&gt;H4&lt;/h4&gt;
+&lt;h4 id=&quot;h4&quot;&gt;H4&lt;/h4&gt;
 
-&lt;h5&gt;H5&lt;/h5&gt;
+&lt;h5 id=&quot;h5&quot;&gt;H5&lt;/h5&gt;
 
-&lt;h6&gt;H6&lt;/h6&gt;
+&lt;h6 id=&quot;h6&quot;&gt;H6&lt;/h6&gt;
 
 &lt;div class=&quot;img img--fullContainer img--14xLeading&quot; style=&quot;background-image: url(/assets/images/posts/walt-childhood.jpg);&quot;&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;var example = true dsklsdf sdlsdksdfl
-sdlksdl dkds ksld sdkla
-laslkads asdkas askksk alaslask
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Hello world!&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
         <pubDate>Tue, 29 Mar 2016 02:00:00 +0200</pubDate>
         <link>entercloudsuite.github.io//category-name/example-post</link>
         <guid isPermaLink="true">entercloudsuite.github.io//category-name/example-post</guid>

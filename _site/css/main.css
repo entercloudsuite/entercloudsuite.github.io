@@ -408,8 +408,8 @@ body {
     opacity: 0.8; }
 
 .brandLogo--small {
-  width: 44px;
-  height: 44px; }
+  width: 40px;
+  height: 40px; }
 
 .brandLogo--black {
   background-image: url(../assets/images/logo-icon-blue.png); }
@@ -1786,6 +1786,11 @@ body {
   min-height: 16.5rem;
   position: relative !important;
   top: 0; }
+
+figure {
+  margin: 1em 0px; }
+  figure pre {
+    font-size: 0.9em; }
 
 .fullscreenModal {
   position: fixed;
