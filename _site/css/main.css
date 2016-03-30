@@ -1790,7 +1790,9 @@ figure {
 
 @media (max-width: 768px) {
   .section--footer {
-    font-size: 0.563rem; } }
+    font-size: 0.563rem; }
+    .section--footer p {
+      line-height: 1rem; } }
 .fullscreenModal {
   position: fixed;
   top: 0;
