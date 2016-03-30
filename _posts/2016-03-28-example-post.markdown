@@ -51,3 +51,16 @@ var example = true dsklsdf sdlsdksdfl
 sdlksdl dkds ksld sdkla
 laslkads asdkas askksk alaslask
 ~~~
+
+{% highlight php %}
+<?php
+
+echo 'Hello world!';
+
+{% endhighlight %}
+
+```php
+    <?php
+
+    echo 'Hello world!';
+```
