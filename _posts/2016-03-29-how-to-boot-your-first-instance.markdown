@@ -18,7 +18,7 @@ syntaxHighlighter: yes
 2. Click on **Computing > Instances** on the left menu.
 
 3. Click on **Launch instance** on top right of the dashboard.
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}ecs-computing-first-instance-03.png);"></div>
+<img src="{{ site.baseurl_posts_img }}ecs-computing-first-instance-03.png">
 
 4. Choose a name for the instance you are going to spin up.
 <div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}ecs-computing-first-instance-04.png);"></div>
