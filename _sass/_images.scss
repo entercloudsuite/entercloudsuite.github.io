@@ -62,9 +62,17 @@
 }
 
 .responsive-guide-img {
-  width: 100%;
+  width: 120%;
   height: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: -10%;
   border: 1px solid #eee;
+}
+
+@media (max-width: 1024px) {
+  .responsive-guide-img {
+    width: 100%;
+    margin-left: 0;
+  }
 }
