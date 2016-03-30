@@ -35,7 +35,7 @@ Questo è un paragrafo.
 
 ###### H6
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}walt-childhood.jpg);"></div>
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}walt-childhood.jpg">
 
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.
 
