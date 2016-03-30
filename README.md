@@ -6,15 +6,15 @@
 #### How to edit this website
 
 1. **EDIT LOCAL, VIEW ONLINE**
-    * Download the [Github Desktop Client](https://desktop.github.com/) and sync the repo
-    * Edit the files and push to Github when finished
+    * Download the [GitHub Desktop Client](https://desktop.github.com/) and sync the repo
+    * Edit the files and push to GitHub when finished
   
 2. **EDIT AND PREVIEW LOCAL**
     * Download the [Github Desktop Client](https://desktop.github.com/) and sync the repo
     * Install and run [Jekyll](https://jekyllrb.com/)
     * Edit the files
     * Preview edits at localhost:4000
-    * When finished, push to Github
+    * When finished, push to GitHub
 
 &nbsp;
 
