@@ -52,7 +52,7 @@ sdlksdl dkds ksld sdkla
 laslkads asdkas askksk alaslask
 ~~~
 
-{% highlight php %}
+{% highlight ruby %}
 <?php
 
 echo 'Hello world!';
