@@ -24,10 +24,15 @@ Questo è un paragrafo.
 <blockquote class="largeQuote">“All our dreams can come true, if we have the courage to pursue them.” - Walt Disney</blockquote>
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 <div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}walt-childhood.jpg);"></div>
@@ -41,8 +46,8 @@ Questo è un paragrafo.
 
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.
 
-~~~
+`
 var example = true dsklsdf sdlsdksdfl
 sdlksdl dkds ksld sdkla
 laslkads asdkas askksk alaslask
-~~~
+`
