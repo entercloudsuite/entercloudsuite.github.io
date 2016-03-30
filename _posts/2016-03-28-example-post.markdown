@@ -46,8 +46,14 @@ Questo è un paragrafo.
 
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id venenatis nulla. Nullam blandit urna nisi, vitae ultrices urna posuere sed. Integer aliquam, orci a aliquam tristique, lectus eros sagittis velit, efficitur commodo est orci eu diam. Aenean quis orci imperdiet, ullamcorper erat nec, placerat erat.
 
-`
+~~~
 var example = true dsklsdf sdlsdksdfl
 sdlksdl dkds ksld sdkla
 laslkads asdkas askksk alaslask
-`
+~~~
+
+{% highlight %}
+var example = true dsklsdf sdlsdksdfl
+sdlksdl dkds ksld sdkla
+laslkads asdkas askksk alaslask
+{% endhighlight %}
