@@ -51,9 +51,3 @@ var example = true dsklsdf sdlsdksdfl
 sdlksdl dkds ksld sdkla
 laslkads asdkas askksk alaslask
 ~~~
-
-{% highlight %}
-var example = true dsklsdf sdlsdksdfl
-sdlksdl dkds ksld sdkla
-laslkads asdkas askksk alaslask
-{% endhighlight %}

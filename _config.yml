@@ -1,8 +1,7 @@
 
 # Syntax highlighting
 markdown:            kramdown
-#highlighter:         rouge
-syntax_highligher:   rouge
+highlighter:         rouge
 
 # Permalinks
 permalink:           /:categories/:title
