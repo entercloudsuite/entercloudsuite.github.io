@@ -4,7 +4,7 @@ title:  "Example Post"
 date:   2016-03-29 00:00:00
 last_modified_at:  2016-03-29 00:00:00
 excerpt: "Description"
-categories: object storage
+categories: object-storage
 tags:
 image:
   feature: image.jpg
