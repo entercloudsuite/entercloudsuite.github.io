@@ -11,6 +11,7 @@ image:
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
+syntaxHighlighter: yes
 ---
 Link: [Wikipedia](https://en.wikipedia.org)
 
