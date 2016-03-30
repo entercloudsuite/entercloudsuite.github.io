@@ -344,5 +344,10 @@ figure {
 @media (max-width: 768px) {
   .section--footer {
     font-size: $font-XXS;
+  
+    p {
+      line-height: 1rem;
+    }
   }
+  
 }
