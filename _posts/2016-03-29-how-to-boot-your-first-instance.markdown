@@ -34,5 +34,6 @@ syntaxHighlighter: yes
 
 10. Schedule automated backups for your instance: this feature allows you to define periodic snapshots in order to free you from the hassle of taking manual copies of your environments.
 
-####That's it!
+#### That's it!
+
 You're ready to proceed and click "Launch Instance". It will take around 10 seconds before your instance will be available for logon (a bit more if you chose a snapshot as an image).

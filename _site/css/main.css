@@ -1788,6 +1788,9 @@ figure {
   figure pre {
     font-size: 0.9em; }
 
+@media (max-width: 768px) {
+  .section--footer {
+    font-size: 0.563rem; } }
 .fullscreenModal {
   position: fixed;
   top: 0;
