@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to snapshot your instance"
-date:   2016-03-30 00:00:00
-last_modified_at:  2016-03-29 00:00:00
+date:   2016-03-29 22:00:00
+last_modified_at:  2016-03-29 22:00:00
 excerpt: "Snapshot your instance with Enter Cloud Suite."
 categories: computing
 tags:
