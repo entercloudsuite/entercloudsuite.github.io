@@ -41,14 +41,3 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-
-# Prose
-prose:
-  siteurl: "http://entercloudsuite.github.io"
-  rooturl: "_posts"
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
