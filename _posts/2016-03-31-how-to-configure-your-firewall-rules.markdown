@@ -15,7 +15,6 @@ syntaxHighlighter: yes
 ---
 
 1. Click on **Computing > Security** on the left menu.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-01.png">
 
 2. Click on **Create Security Group** on top right of the screen.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-02.png">
