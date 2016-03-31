@@ -36,16 +36,11 @@ Advanced functionalities to back-up volumes to object storage are available via 
 2. Define a name and a size for your new volume.
 
 3. Choose the volume type: 
-
-o Archive - for archival purposes, slow performance (50 IOPS)
-
-o Standard - for typical filesystem usage (100 IOPS, 7.2kRPM SATA-like)
-
-o Plus - for average database usage (500 IOPS, 10kRPM SAS-like)
-
-o Top - for demanding database usage (1000 IOPS, SSD-like)
-
-o Secure - for hardware-based encrypted drives (50 IOPS, OPAL drives)
+  > Archive - for archival purposes, slow performance (50 IOPS)
+  > Standard - for typical filesystem usage (100 IOPS, 7.2kRPM SATA-like)
+  > Plus - for average database usage (500 IOPS, 10kRPM SAS-like)
+  > Top - for demanding database usage (1000 IOPS, SSD-like)
+  > Secure - for hardware-based encrypted drives (50 IOPS, OPAL drives)
 
 4. Choose the region where you want to create your new volume. This choice will affect the list of instances you will be asked to attach the volume to.
 
