@@ -29,6 +29,10 @@
 
 .section--frontpage {
   height: 14 * $leading;
+  
+  @media (max-width: $screen-xs-max) {
+    height: 10 * $leading;
+  }
 }
 
 .section--about,
@@ -168,11 +172,12 @@
     letter-spacing: 0.04rem;
     color: $gray-light;
     text-transform: none;
-    font-size: 18px;
+    font-size: 20px;
 
     @media (max-width: $screen-xs-max) {
       width: 100%;
       padding-top: 12px;
+      font-size: 16px;
     }
   }
 
