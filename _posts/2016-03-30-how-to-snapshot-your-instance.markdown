@@ -17,7 +17,7 @@ Instance snapshots are a simple way to perform a **full backup of your virtual s
 Once a user triggers an instance snapshot, the instance is stored locally and in two more remote datacenters, being **immediately available for restore in any region**. Thanks to Enter Cloud Suite architecture, the object storage cluster spans three different regions in three different EU countries (Italy, Germany, Netherlands), and allows to seamlessly replicate data remotely, without any need for manual operations. 
 Should you have any compliance or regulation driven country boundary limitation, you can still avoid this replication by adopting volume-backed instances ("Diskless flavors" or "boot from volume"), a specific type of instances that store the image file and snapshots in a block storage volume, therefore locally to the current region.
 
-## SINGLE SNAPSHOT - QUICKSTART
+### SINGLE SNAPSHOT - QUICKSTART
 
 1. Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
 
@@ -36,7 +36,7 @@ Should you have any compliance or regulation driven country boundary limitation,
 7. To check your snapshots, click on the **Computing > Snapshots** menu on the left.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-snapshot-03.png">
 
-## ALTERNATIVE PATHS
+### ALTERNATIVE PATHS
 
 #### Instance detail menu
 
