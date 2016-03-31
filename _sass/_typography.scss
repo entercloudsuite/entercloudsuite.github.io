@@ -5,7 +5,7 @@
 // Credit: Modified based on Typebase.less v0.1.0 | MIT License
 
 // Typesetting variables.
-$baseFontSize:       22; // in pixels. This would result in 22px on desktop
+$baseFontSize:       18; // in pixels. This would result in 22px on desktop
 $baseLineHeight:     1.5; // how large the line height is as a multiple of font size - 33px
 $leading:            $baseLineHeight * 1rem;
 // Rate of growth for headings
@@ -23,9 +23,9 @@ $font-XXXL:          4.209rem;
 $font-XXXXL:         5.61rem;
 
 // Font type
-$body-primary-font: 'Source Serif Pro', serif;
-$title-primary-font: 'PT Sans', sans-serif;
-$title-secondary-font: 'Roboto', sans-serif;
+$body-primary-font: 'Helvetica Neue', 'Hevetica', 'Arial', sans-serif;
+$title-primary-font: 'Helvetica Neue', 'Hevetica', 'Arial', sans-serif;
+$title-secondary-font: 'Helvetica Neue', 'Hevetica', 'Arial', sans-serif;
 
 /* Setup */
 
