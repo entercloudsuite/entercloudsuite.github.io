@@ -40,4 +40,4 @@ syntaxHighlighter: yes
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-09.png">
 
 9. Remove the default one, and add the new security group, then click **Save**. This should be the final setting.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-snapshot-10.png">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-10.png">
