@@ -11,7 +11,7 @@
 
 .section--first,
 .section-backgroundImage {
-  height: 15 * $leading;
+  height: 11 * $leading;
 
   @media (max-width: $screen-xs-max) {
     height: 12 * $leading;
@@ -136,7 +136,7 @@
 
 .section-title h2,
 .section-title h4 {
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .section-title h2 {
