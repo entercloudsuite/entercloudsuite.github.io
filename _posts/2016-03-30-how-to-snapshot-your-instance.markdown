@@ -51,4 +51,3 @@ Should you have any compliance or regulation driven country boundary limitation,
 1. You can access the snapshotting function also from your **Snapshots** page: select **Computing > Snapshots** and click on the green **Take Snapshot** button on top right.
 
 2. Insert your snapshot name, select the instance you want to snapshot and define the snapshot retention. Note: In the duration field **0** means the retention for this snapshot will be infinite, **1** means that the snapshot will be deleted exactly 24 hours after it has been completed.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-snapshot-06.png">.
