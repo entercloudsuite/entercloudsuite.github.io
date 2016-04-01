@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to manage your health checks and smart records"
-date:   2016-03-29 14:00:00
-last_modified_at:  2016-03-29 14:00:00
+date:   2016-03-29 12:00:00
+last_modified_at:  2016-03-29 12:00:00
 excerpt: "Manage your health checks and smart records with Enter Cloud Suite."
 categories: dns
 tags:
@@ -13,8 +13,7 @@ bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
-1. Click on **DNS & Domains** on the left menu:
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-healthchecks-01.png">
+1. Click on **DNS & Domains** on the left menu
 
 2. Then click on **Add Health Check** button:
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-healthchecks-02.png">

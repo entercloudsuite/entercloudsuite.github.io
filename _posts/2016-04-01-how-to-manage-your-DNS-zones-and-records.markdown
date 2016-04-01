@@ -13,11 +13,9 @@ bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
-1. Click on **DNS & Domains** on the left menu:
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-records-01.png">
+1. Click on **DNS & Domains** on the left menu
 
 2. Then click on **Add Domain** button:
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-records-02.png">
 
 3. Insert your domain name and click on **Add Domain**.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-records-03.png">
