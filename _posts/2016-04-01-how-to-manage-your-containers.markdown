@@ -4,7 +4,7 @@ title:  "How to manage your containers"
 date:   2016-03-29 19:00:00
 last_modified_at:  2016-03-29 19:00:00
 excerpt: "Manage your containers with Enter Cloud Suite."
-categories: Object Storage
+categories: object-storage
 tags:
 image:
   feature: create-containers.jpg
