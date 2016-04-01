@@ -8,7 +8,7 @@ categories: networks
 tags:
 image:
   feature: floatingips.jpg
-  topPosition: -50px
+  topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
