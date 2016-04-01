@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to manage your DNS zones and records"
-date:   2016-03-29 14:00:00
-last_modified_at:  2016-03-29 14:00:00
+date:   2016-03-29 13:00:00
+last_modified_at:  2016-03-29 13:00:00
 excerpt: "Manage your DNS zones and records with Enter Cloud Suite."
 categories: dns
 tags:
