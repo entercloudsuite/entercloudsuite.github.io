@@ -7,7 +7,7 @@ excerpt: "Manage your Floating IPs with Enter Cloud Suite."
 categories: networks
 tags:
 image:
-  feature: networks.jpg
+  feature: floating-ips.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: lighter
