@@ -8,7 +8,7 @@ categories: computing
 tags:
 image:
   feature: volumes.jpg
-  topPosition: -50px
+  topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes

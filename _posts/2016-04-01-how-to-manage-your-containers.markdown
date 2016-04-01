@@ -8,7 +8,7 @@ categories: object-storage
 tags:
 image:
   feature: create-containers.jpg
-  topPosition: -50px
+  topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes

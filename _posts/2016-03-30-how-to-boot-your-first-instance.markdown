@@ -8,7 +8,7 @@ categories: computing
 tags:
 image:
   feature: first-instance.jpg
-  topPosition: -50px
+  topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
