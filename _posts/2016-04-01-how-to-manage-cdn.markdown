@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to manage CDN"
-date:   2016-03-29 18:00:00
-last_modified_at:  2016-03-29 18:00:00
+date:   2016-03-29 15:00:00
+last_modified_at:  2016-03-29 15:00:00
 excerpt: "Manage CDN with Enter Cloud Suite."
 categories: cdn
 tags:
