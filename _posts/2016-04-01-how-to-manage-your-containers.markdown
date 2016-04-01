@@ -22,7 +22,7 @@ syntaxHighlighter: yes
 1. Click on **Create a container** on top right
 
 2. Insert the name for your new container
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-create-containers-01">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-create-containers-01.png">
 
 3. Select the storage policy you want to apply to the new container:
     * Standard Replica EU - 3 copies of data, one per region
@@ -40,7 +40,7 @@ syntaxHighlighter: yes
 3. To upload a file, click on **Upload file**, on top left
 
 4. To download a file, click on the grey icon next to the file name and select **Download**
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-create-containers-02">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-create-containers-02.png">
 
 5. To copy or cut and paste a file, click on the grey icon next to the file name and select **Copy/Move**. Change the name or select a different sub-folder in order to copy or move the file.
 

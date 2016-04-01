@@ -20,22 +20,22 @@ Containers are HTTP-based folders that contain files only for authenticated acce
 2. Click on **Object storage > Containers** on the left menu
 
 3. Find the container you want to make public, and click on the grey icon next to it
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-01">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-01.png">
 
 4. Confirm and click OK
 
 5. Now the container is listed as **Public** in the **Access** column
 
 6. To retrieve a single object URL, enter the container, find the file you want to publish and click on the grey icon on the right, the select **Share**
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-02">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-02.png">
 
 7. In the popup form, choose if you want to share a plain link (green icon) 
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-03">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-03.png">
 
 8. If you want to provide someone access to container by sending the link via email, click the blue icon
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-04">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-04.png">
 
 9. Define the expiration for the public URL
 
 10. If you want to verify your active and previous shares, go to **Object storage > Shares**, where you can also verify if a link has been opened and how many times.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-05">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-share-containers-05.png">
