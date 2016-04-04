@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to get usage reports"
-date:   2016-03-29 13:00:00
-last_modified_at:  2016-03-29 13:00:00
+date:   2016-03-29 12:00:00
+last_modified_at:  2016-03-29 12:00:00
 excerpt: "Get usage reports with Enter Cloud Suite."
 categories: report
 tags:
