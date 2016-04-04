@@ -15,12 +15,12 @@ syntaxHighlighter: yes
 ---
 1. Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
 
-2. Click on "Reports" on the left menu
+2. Click on **Reports** on the left menu
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-reports-01.png">
 
 ### SCHEDULE A NEW REPORT
 
-1. Click on "SCHEDULE" on top right
+1. Click on **Schedule** on top right
 
 2. Insert the name for your new report
 
@@ -49,24 +49,24 @@ syntaxHighlighter: yes
     * %region - the selected region
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-reports-04.png">
 
-8. Click on “Save”
+8. Click on **Save**
 
 ### BROWSE AND MANAGE YOUR REPORTS
 
-1. Click on "Reports" on the left menu
+1. Click on **Reports** on the left menu
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-reports-05.png">
 
-2. Click on the blue “stop” button, on the right, to disable the execution of an active report. A stopped report could be activated, clicking on the “play” button
+2. Click on the blue **Stop** button, on the right, to disable the execution of an active report. A stopped report could be activated, clicking on the “play” button
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-reports-06.png">
 
-3. Click on the blue “info” button, on the right, to show the FTP settings of each report
+3. Click on the blue **Info** button, on the right, to show the FTP settings of each report
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-reports-07.png">
 
 ### DELETE A REPORT
 
-1. Click on "Reports" on the left menu
+1. Click on **Reports** on the left menu
 
-2. Click on the red “bin” button on the right
+2. Click on the red **bin** button on the right
 
-3. Click on “OK” to confirm the deletion of the selected report
+3. Click on **Ok** to confirm the deletion of the selected report
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-reports-08.png">
