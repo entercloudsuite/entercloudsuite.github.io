@@ -1,28 +1,49 @@
 ---
 layout: post
-title:  "How to manage your audit logs"
-date:   2016-03-29 11:00:00
-last_modified_at:  2016-03-29 11:00:00
-excerpt: "Manage audit logs with Enter Cloud Suite."
-categories: logs
+title:  "How to create and manager users"
+date:   2016-03-29 09:00:00
+last_modified_at:  2016-03-29 09:00:00
+excerpt: "Create and manage users with Enter Cloud Suite."
+categories: admin-portal
 tags:
 image:
-  feature: logs.jpg
+  feature: admin-portal.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
 
-In ECS you can enable some log about Object Storage operations ( Upload new file, Delete files, List files ecc. ) and Security Groups operations ( New rule , delete it , ecc. )
+1. Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-01.png">
 
-1. To enable, you have to Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a> and goes to Project Tab in left menu:
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-logs-auditlogs-01.png">
+### SEARCH AND BROWSE USERS
 
-2. In every sub-project you can choose two level of logging: Basic and Advanced
-    * Basic: Only limited Object Storage operations (Upload and Delete)
-    * Advanced: All Object Storage operations and Security Groups operations
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-logs-auditlogs-02.png">
+1. Insert the name or email of a customer user in the field **Users**, in the left box
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-02.png">
 
-3. Logs will archive in two different container in previusly selected account.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-logs-auditlogs-03.png">
+2. Click on **View** button to search the user
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-03.png">
+
+3. Click on the name of a user listed to go to his details page
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-04.png">
+
+### VIEW AND MANAGE USERS
+
+1. Search an user and open his detail page as seen in the previous steps
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-05.png">
+
+2. If you want to login in user Enter Cloud Suite Dashboard:
+    * Click on **Login** button
+    * Click on the button to open the user Dashboard in a new window
+
+3. If you want to force the change of the user password
+    * Click on **Change password** button
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-06.png">
+    * In **Password** and **Confirm Password**, type the new password
+    * Click **Change** button to apply the new password
+
+4. If you want to set the user as a Master (the master can access all the Dashboard features such as Reports and Projects/Users management):
+    * Click on **Set as master** button
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-07.png">
+    * Click on **Yes** button just to confirm the operation s
