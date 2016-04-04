@@ -7,7 +7,7 @@ excerpt: "Create and manage users with Enter Cloud Suite."
 categories: admin-portal
 tags:
 image:
-  feature: admin-portal.jpg
+  feature: users.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
