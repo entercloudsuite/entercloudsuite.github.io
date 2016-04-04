@@ -13,7 +13,7 @@ bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
-1. Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
+1. Log into the <a href="https://admin.entercloudsuite.com" target="_blank">Enter Cloud Suite Admin Portal</a>.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-customers-01.png">
 
 ### CREATE A CUSTOMER
