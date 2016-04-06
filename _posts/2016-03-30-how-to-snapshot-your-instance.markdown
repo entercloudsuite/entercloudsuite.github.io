@@ -13,9 +13,9 @@ bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
-Instance snapshots are a simple way to perform a **full backup of your virtual servers** for DR recovery purposes. Since snapshots rely upon the Openstack Object Storage system (Swift), instance copies are moved from compute nodes to an object storage cluster, in a storage container.
+Instance snapshots are a simple way to perform a **full backup of your instance** for DR recovery purposes. Since snapshots rely upon the Openstack Object Storage system (Swift), instance copies are moved from compute nodes to an object storage cluster, in a storage container.
 
-Once a user triggers an instance snapshot, the instance is stored locally and in two more remote datacenters, being **immediately available for restore in any region**. Thanks to Enter Cloud Suite architecture, the object storage cluster spans three different regions in three different EU countries (Italy, Germany, Netherlands), and allows to seamlessly replicate data remotely, without any need for manual operations. 
+Once a user triggers an instance snapshot, the instance is stored both locally and in two more remote datacenters, being **immediately available for restore in any region**. Thanks to Enter Cloud Suite architecture, the object storage cluster spans three different regions in three different EU countries (Italy, Germany, Netherlands), and allows to seamlessly replicate data remotely, without any need for manual operations. 
 
 Should you have any compliance or regulation driven country boundary limitation, you can still avoid this replication by adopting volume-backed instances ("Diskless flavors" or "boot from volume"), a specific type of instances that store the image file and snapshots in a block storage volume, therefore locally to the current region.
 
