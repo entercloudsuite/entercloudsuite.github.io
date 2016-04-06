@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How to configure your firewall rules"
-date:   2016-03-29 21:00:00
-last_modified_at:  2016-03-29 21:00:00
+title:  "Configure your firewall rules"
+date:   2016-03-29 23:00:00
+last_modified_at:  2016-04-06 12:06:92
 excerpt: "Configure your firewall rules with Enter Cloud Suite."
 categories: computing
 tags:

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "How to manage your health checks and smart records"
-date:   2016-03-29 12:00:00
-last_modified_at:  2016-03-29 12:00:00
-excerpt: "Manage your health checks and smart records with Enter Cloud Suite."
+title:  "How to manage your health checks and smart DNS records"
+date:   2016-03-29 23:00:00
+last_modified_at:  2016-04-06 12:06:92
+excerpt: "Manage your health checks and smart DNS records with Enter Cloud Suite."
 categories: dns
 tags:
 image:
