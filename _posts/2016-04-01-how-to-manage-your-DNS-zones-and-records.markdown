@@ -17,7 +17,7 @@ syntaxHighlighter: yes
 
 2. Then click on **Add Domain** button:
 
-3. Insert your domain name and click on **Add Domain**.
+3. Insert your domain0 name and click on **Add Domain**.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-records-03.png">
 
 4. You will now be redirected to the summary page. Click on the domain name to edit related records.
