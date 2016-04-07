@@ -22,30 +22,21 @@ syntaxHighlighter: yes
 
 4. You now have to fill the form in order to create a new CDN "site": in **Site**, you have to configure the URL you will use to distribute your static files trough the CDN. In **Origin**, you must set the existing source for your files, the one the CDN will fetch objects from:
 
-e sto gran cazzo
-
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-02.png">
 
+5. Let's suppose that you want to serve via the CDN static objects hosted on **www.entercloudsuite.com**: by setting "www.entercloudsuite.com" as "Site" and "static.entercloudsuite.com" as "Origin", when you will request a file (ie: http://cdn.entercloudsuite.com/logo.png) the CDN will take care of fetching it from the origin, will store the object on its nodes and serve it to you via the nearest node. On subsequent requests, until cache expiry, the origin won't be queried anymore before serving that given file.
 
-
-5. Let's suppose that you want you have the domain **www.example.com** and you want to reach the CDN with the URL **cdn.example.com**; in this field, add **cdn.example.com** (without quotes).
-ATTENTION: in the DNS panel of your provider you have to set the record as a CNAME of **cdn.entercloudsuite.com.** (without quotes and mind the last dot).
-
-With this configuration:
-    * Site: cdn.example.org
-    * Origin: http://www.example.org
-
-When you request a file (for example, http://cdn.example.org/files/1.png), the CDN system will get the original file from the origin previously specified (in this case http://www.example.org/files/1.png) and it will cache the file. On the next request of the same file, the origin will not be queried for the file and the CDN will supply directly the file.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-03.png">
 
-Once the configuration is created, you should see the entry in the CDN section of the dashboard.
+6. Once the site is created, you should see the entry in the CDN section of the Dashboard.
+
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-04.png">
 
-If you want to modify the origin of the CDN, you have to click the blue button with a white pencil; the edit screen will appear. The only editable field is the origin URL.
-If you want to edit the CDN URL, you must delete and create a new CDN entry.
+7. If you want to modify the origin of the CDN Site, you can click the blue button with a white pencil.
+
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-05.png">
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-06.png">
 
-If you want to delete the CDN configuration, click on the red button with a white trash inside; a confirmation popup will appear.
+8. If you want to delete the CDN configuration, click on the red button: a confirmation popup will appear once done.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-07.png">
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-08.png">

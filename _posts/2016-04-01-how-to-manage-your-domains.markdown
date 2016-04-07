@@ -13,7 +13,7 @@ bgContrast: dark
 bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
-1. Once you are logged in the dashboard, to manage your domains you can select “Addons” on the left. 
+1. Once you are logged in the Dashboard, to manage your domains you can select “Addons” on the left. 
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-dns-domain-01.png">
 
 2. A screen where you can see a list of your Addons will appear, you can note the green button “BUY ADDONS” on the top right of the screen.

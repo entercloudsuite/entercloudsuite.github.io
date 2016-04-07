@@ -18,7 +18,7 @@ syntaxHighlighter: yes
 2. Click on **Networks > Networks** on the menu
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-networks-manage-networks-01.png">
 
-3. Now dashboard shows your networks in all ECS regions
+3. Now Dashboard shows your networks in all ECS regions
 
 4. Create a new network just clicking on **Create Network** 
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-networks-manage-networks-02.png">
