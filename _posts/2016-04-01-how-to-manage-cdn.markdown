@@ -23,6 +23,7 @@ syntaxHighlighter: yes
 4. You now have to fill the form in order to create a new CDN "site": in **Site**, you have to configure the URL you will use to distribute your static files trough the CDN. In **Origin**, you must set the existing source for your files, the one the CDN will fetch objects from:
 
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-02.png">
+
 5. Let's suppose that you want to serve via the CDN static objects hosted on **www.entercloudsuite.com**: by setting "www.entercloudsuite.com" as "Site" and "static.entercloudsuite.com" as "Origin", when you will request a file (ie: http://cdn.entercloudsuite.com/logo.png) the CDN will take care of fetching it from the origin, will store the object on its nodes and serve it to you via the nearest node. On subsequent requests, until cache expiry, the origin won't be queried anymore before serving that given file.
 
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-03.png">
