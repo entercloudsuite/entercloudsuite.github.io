@@ -15,17 +15,18 @@ syntaxHighlighter: yes
 ---
 1. Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
 
-2. In the Dashboard, choose **CDN** from the left panel to access the CDN section.
+2. In the Dashboard, click on **CDN** in the left menu.
 
-3. Once the section loads, click on the **Add site button** on the top right.
+3. Once the page loads, click on the **Add Site** button on the top right.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-01.png">
 
-In **Site**, you have to configure the URL you like for access the CDN; it must be a subdomain of your own domain. 
-Let's suppose that you want you have the domain **example.com** and you want to reach the CDN with the URL **cdn.example.com**; in this field, add **cdn.example.com** (without quotes).
-ATTENTION: in the DNS panel of your provider you have to set the record as a CNAME of **cdn.entercloudsuite.com.** (without quotes and mind the last dot).
+In **Site**, you have to configure the URL you will use to distribute your static files trough the CDN.
 
-4. In **Origin**, input the website which actually contains the data you want to cache.
+4. In **Origin**, you must set the existing source for your files, the one the CDN will fetch objects from:
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-02.png">
+
+Let's suppose that you want you have the domain **www.example.com** and you want to reach the CDN with the URL **cdn.example.com**; in this field, add **cdn.example.com** (without quotes).
+ATTENTION: in the DNS panel of your provider you have to set the record as a CNAME of **cdn.entercloudsuite.com.** (without quotes and mind the last dot).
 
 With this configuration:
     * Site: cdn.example.org
