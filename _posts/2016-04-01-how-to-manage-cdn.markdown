@@ -24,15 +24,12 @@ syntaxHighlighter: yes
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-02.png">
 
 5. Let's suppose that you want to serve via the CDN static objects hosted on **www.entercloudsuite.com**: by setting "www.entercloudsuite.com" as "Site" and "static.entercloudsuite.com" as "Origin", when you will request a file (ie: http://cdn.entercloudsuite.com/logo.png) the CDN will take care of fetching it from the origin, will store the object on its nodes and serve it to you via the nearest node. On subsequent requests, until cache expiry, the origin won't be queried anymore before serving that given file.
-
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-03.png">
 
 6. Once the site is created, you should see the entry in the CDN section of the Dashboard.
-
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-04.png">
 
 7. If you want to modify the origin of the CDN Site, you can click the blue button with a white pencil.
-
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-05.png">
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-06.png">
 
