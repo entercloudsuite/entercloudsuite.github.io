@@ -19,9 +19,9 @@ syntaxHighlighter: yes
 
 ### CREATE A CONTAINER
 
-1. Click on **Create a container** on top right
+1. Click on **Create a Container** on top right.
 
-2. Insert the name for your new container
+2. Choose the name for your new container
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-create-containers-01.png">
 
 3. Select the storage policy you want to apply to the new container:
@@ -33,24 +33,24 @@ syntaxHighlighter: yes
 
 ### BROWSE AND MANAGE CONTAINERS
 
-1. Click on **Object storage > Containers** on the left menu
+1. Click on **Object Storage > Containers** on the left menu
 
-2. Click on the name of your new container to list its contents
+2. Click on the name of your container to get a list of its content
 
-3. To upload a file, click on **Upload file**, on top left
+3. To upload a file, click on **Upload File**, on top left
 
 4. To download a file, click on the grey icon next to the file name and select **Download**
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-object-storage-create-containers-02.png">
 
 5. To copy or cut and paste a file, click on the grey icon next to the file name and select **Copy/Move**. Change the name or select a different sub-folder in order to copy or move the file.
 
-6. To create a folder, click on **Create folder**
+6. To create a folder, click on **Create Folder**
 
 ### DELETE A CONTAINER
 
-1. Click on **Object storage > Containers** on the left menu
+1. Click on **Object Storage > Containers** on the left menu
 
-2. Click on the name of your new container to list its contents
+2. Click on the name of your container to get a list of its content
 
 3. Click on the red bin icon on the right
 

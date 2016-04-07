@@ -16,7 +16,7 @@ syntaxHighlighter: yes
 
 1. Click on **Computing > Security** on the left menu.
 
-2. Click on **Create Security Group** on top right of the screen.
+2. Click on **Create Security Group** on the top right of the screen.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-02.png">
 
 3. Define a **name** and a **description** for your security group, then **choose the region** where you need to use it.
@@ -28,7 +28,7 @@ syntaxHighlighter: yes
 5. By default, there will be no rules. First of all, create a rule to allow all outgoing traffic from your instances. Fill up the required fields as per screenshot, and click on **Create Rule**.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-05.png">
 
-6. You can then create specific rules for incoming traffic. In a **basic** use case, you would allow administrative traffic from some service IPs only, and http traffic from any source.
+6. You can then create specific rules for incoming traffic. In a **standard** "web" use case, you would allow administrative traffic from some service IPs only, and http traffic from any source.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-06.png">
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-firewall-07.png">
 

@@ -35,7 +35,7 @@ syntaxHighlighter: yes
 **Note: if you didn't provision a router or a network (LAN or subnet) inside your tenant, ECS will configure it for you. If you have already created a single network with a single LAN, the system will pick the existing one automatically, and if there is more than one network you will be prompted to choose the one you want.**
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-first-instance-07.png">
 
-9. Define the public SSH key you are going to use to administer your instance: import one from your computer, create a new keypair or select an existing one. Should you choose to create a new keypair, you will be prompted to download the private key once you click on "Launch instance".
+9. Choose the public SSH key you are going to use to administer your instance: import one from your computer, create a new keypair or select an existing one. Should you choose to create a new keypair, you will be prompted to download the private key once you click on "Launch instance".
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-first-instance-08.png">
 
 10. Schedule automated backups for your instance: this feature allows you to plan periodic snapshots.

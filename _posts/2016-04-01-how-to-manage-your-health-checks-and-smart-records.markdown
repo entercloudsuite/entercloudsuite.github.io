@@ -7,7 +7,7 @@ excerpt: "Manage your health checks and smart DNS records with Enter Cloud Suite
 categories: dns
 tags:
 image:
-  feature: healthchecks.jpg
+  feature: smart-dns.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
