@@ -20,12 +20,10 @@ syntaxHighlighter: yes
 3. Once the page loads, click on the **Add Site** button on the top right.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-01.png">
 
-
-
-4. In **Origin**, you must set the existing source for your files, the one the CDN will fetch objects from:
+4. You now have to fill the form in order to create a new CDN "site": in **Site**, you have to configure the URL you will use to distribute your static files trough the CDN. In **Origin**, you must set the existing source for your files, the one the CDN will fetch objects from:
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-02.png">
-boh
-In **Site**, you have to configure the URL you will use to distribute your static files trough the CDN.
+
+
 
 Let's suppose that you want you have the domain **www.example.com** and you want to reach the CDN with the URL **cdn.example.com**; in this field, add **cdn.example.com** (without quotes).
 ATTENTION: in the DNS panel of your provider you have to set the record as a CNAME of **cdn.entercloudsuite.com.** (without quotes and mind the last dot).
