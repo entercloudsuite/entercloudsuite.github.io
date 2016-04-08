@@ -35,4 +35,3 @@ syntaxHighlighter: yes
 
 8. If you want to delete the CDN configuration, click on the red button: a confirmation popup will appear once done.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-07.png">
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-cdn-08.png">
