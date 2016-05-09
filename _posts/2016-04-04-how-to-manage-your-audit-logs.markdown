@@ -26,7 +26,7 @@ syntaxHighlighter: yes
 
 3. Choose the project for which you want to enable logs
 
-4. Select log level you want choosing from **Basic and Advanced**
+4. Select log level you want choosing from Basic and Advanced
     * Basic level is to trace only object storage operations (Upload and Delete)
     * Advanced level is to trace all object storage and security group operations
 Press OK to confirm.
