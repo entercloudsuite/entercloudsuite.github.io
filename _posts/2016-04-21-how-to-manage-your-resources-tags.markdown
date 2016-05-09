@@ -24,7 +24,6 @@ You can buy additional services such as:
 1. Log into the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
 
 2. Click on **Tags** on the left menu.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-tags-01.png">
 
 ### MANAGE TAGS
 
