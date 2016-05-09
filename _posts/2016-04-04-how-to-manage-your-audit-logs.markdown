@@ -7,7 +7,7 @@ excerpt: "Manage your audit logs with Enter Cloud Suite."
 categories: logs
 tags:
 image:
-  feature: logss.jpg
+  feature: logs.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
