@@ -14,7 +14,7 @@ bgGradientOpacity: lighter
 syntaxHighlighter: yes
 ---
 
-1. Log into the <a href="https://admin.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a>.
+1. Log into the <a href="https://admin.entercloudsuite.com" target="_blank">Enter Cloud Suite Admin Portal</a>.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-quotas-01.png">
 
 2. Insert the name of a customer in the field **Customers**, in the left box
