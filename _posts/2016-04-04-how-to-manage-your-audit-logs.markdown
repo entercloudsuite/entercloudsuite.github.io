@@ -1,18 +1,13 @@
 ---
 layout: post
 title:  "How to manage your audit logs"
-<<<<<<< Updated upstream
 date:   2016-03-29 23:00:00
 last_modified_at:  2016-04-06 12:06:92
-=======
-date:   2016-03-29 10:00:00
-last_modified_at:  2016-03-29 10:00:00
->>>>>>> Stashed changes
-excerpt: "Manage audit logs with Enter Cloud Suite."
+excerpt: "Manage your audit logs with Enter Cloud Suite."
 categories: logs
 tags:
 image:
-  feature: logs.jpg
+  feature: logss.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
