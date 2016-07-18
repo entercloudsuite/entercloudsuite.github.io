@@ -45,6 +45,16 @@ When the ticket is sent, the system reports the summary of your ticket and the T
 Our support team will check it as soon as possible and decide the priority according to the “Sample Priority Coding System”.
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-01.png">
 
+If you want to review or manage your ticket, use your username and password to login into the system.
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-10.png">
+
+If you don't remember the password, press the "Lost password" button:
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-11.png">
+
+then type the Email, CAPTCHA Verification and press the Submit button:
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-12.png">
+
+
 ### CHAT
 
 The chat is attainable in more than one page: <a href="http://www.entercloudsuite.com/it/" target="_blank">http://www.entercloudsuite.com/it//</a> 
