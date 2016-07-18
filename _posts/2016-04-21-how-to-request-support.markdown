@@ -54,7 +54,7 @@ If you don't remember the password, press the "Lost password" button:
 then type the Email, CAPTCHA Verification and press the Submit button:
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-12.png">
 
-You will receive an email like this:
+You will receive an email like this: (if you don't see the email, please check the Spam folder)
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-13.png">
 
 just press the link and you will be redirected to the reset password page:
