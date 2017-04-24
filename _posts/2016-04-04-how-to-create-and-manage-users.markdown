@@ -77,7 +77,7 @@ Note that the master user cannot be deleted. If you need to delete the master us
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-10.png">
     * Click on **Add** button to confirm the creation of the project
     * Then the new user just created has to go to the <a href="https://dashboard.entercloudsuite.com" target="_blank">Enter Cloud Suite Dashboard</a> and click on **Forget password**
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-11.JPJ">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-11.JPG">
     * Insert user’s email in edit box and then click **Reset password**
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-12.JPG">
     * The user will receive an email with a link to follow where he could set his password. The link will expire after 5 days and after that time the user need to restart the flow again and click **Forget password** again. Note that the **Forget password** doesn’t invalidate current user password which will be changed only after the completion of all steps.
