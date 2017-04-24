@@ -25,7 +25,7 @@ syntaxHighlighter: yes
 5. Select the region you want your instance to be created into (IT-MIL1, DE-FRA1 or NL-AMS1).
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-first-instance-04.png">
 
-6. Pick a flavor to define the virtual hardware specifications (CPU, RAM and HD) of your instance.
+6. Pick a flavor to define the virtual hardware specifications (CPU, RAM and HD) of your instance. Using the tabs you can choose different type of categories (SSD, SATA, Diskless).
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-computing-first-instance-05.png">
 
 7. Select the image you want your instance to be booted from: this is the software template you are going to use on it. It could be a standard template provided by Enter (e.g. Ubuntu Linux or Windows 2012), a snapshot previously taken from an existing instance or an image uploaded by yourself.

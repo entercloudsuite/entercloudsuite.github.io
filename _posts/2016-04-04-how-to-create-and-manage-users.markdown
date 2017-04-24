@@ -93,7 +93,7 @@ Note that the master user cannot be deleted. If you need to delete the master us
     * Click on the button to open the user Dashboard in a new window
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-05.png">
     * Click on **Projects** on the left menu
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-16.png">
+<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-projects-and-users-01.png">
     * Choose a project in which you want to add a new user and fill the required boxes such as **Email** and **Name and Surname** and then click on **Add** button
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-admin-portal-users-17.png">
     * An email is sent to the new user email address asking him to reset his password as seen in the previous steps  

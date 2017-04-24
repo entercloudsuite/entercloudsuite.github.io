@@ -16,7 +16,6 @@ syntaxHighlighter: yes
 We aim to provide great customer service. For product inquiries, technical support, commercial and bug, here are all the ways you can contact us:
 * Mail
 * Web Ticketing
-* Chat
 
 ### MAIL
 
@@ -60,17 +59,3 @@ You will receive an email like this: (if you don't see the email, please check t
 just press the link and you will be redirected to the reset password page:
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-14.png">
 
-### CHAT
-
-The chat is attainable in more than one page: <a href="http://www.entercloudsuite.com/it/" target="_blank">http://www.entercloudsuite.com/it//</a> 
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-06.png">
-
---> <a href="https://support.entercloudsuite.com/" target="_blank">https://support.entercloudsuite.com/</a> 
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-07.png">
-
-Press the **Live Support** or **Live Chat** button to open the chat page
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-08.png">
-
-Insert **Full Name**, **Email** (preferably the same used in the dashboard login), and type your question.
-Click **Start Chat** to start and then you will be inserted in the chat queue, our operator will help you as soon as possible.
-<img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}ecs-support-09.png">
