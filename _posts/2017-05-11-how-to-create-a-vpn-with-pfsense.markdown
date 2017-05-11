@@ -19,9 +19,8 @@ This guide will work only using [Horizon](https://horizon.entercloudsuite.com/).
 1. Create two networks: one for the WAN, one for the internal LAN
 2. Launch an instance with the pfSense image (image name: `pfSense 2.3.2` - ID: `010ae2b2-a948-46b8-a702-c9c4a1346afc`s) with the two networks attached. We recommend at least an x2 flavor
 ![pfsense_creazione](/assets/images/posts/pfsense_creazioneimmagine.PNG)
-> Please note the order of the added nics
+> Please note the order of the added nics.
 > In this guide we'll use `pfSense_WAN` network in NIC1 and `pfSense_LAN` network in NIC2
-
 ![pfSenseNetwork_Wan_Lan](/assets/images/posts/pfSenseNetwork_Wan_Lan.PNG)
 
 3. Reach the virtual terminal of the instance, using the "Console" section of the instance, and follow the setup wizard on the terminal in order to setup pfSense. Remember the nic order to define which is WAN and which is LAN
