@@ -19,7 +19,7 @@ This guide will work only using [Horizon](https://horizon.entercloudsuite.com/).
 1. Create two networks: one for the WAN, one for the internal LAN
 2. Launch an instance with the pfSense image (image name: `pfSense 2.3.2` - ID: `010ae2b2-a948-46b8-a702-c9c4a1346afc`s) with the two networks attached. We recommend at least an x2 flavor.
 
-![Aggiungere immagine "pfsense_creazioneimmagine"](pfsense_creazioneimmagine.PNG)
+![Aggiungere immagine "pfsense_creazioneimmagine"](/pfsense_creazioneimmagine.PNG)
 
 <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}pfsense_creazioneimmagine.PNG">
 
