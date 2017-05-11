@@ -18,44 +18,42 @@ This guide will work only using [Horizon](https://horizon.entercloudsuite.com/).
 
 1. Create two networks: one for the WAN, one for the internal LAN
 2. Launch an instance with the pfSense image (image name: `pfSense 2.3.2` - ID: `010ae2b2-a948-46b8-a702-c9c4a1346afc`s) with the two networks attached. We recommend at least an `x2` flavor for this instance
-![pfsense_creazione](/assets/images/posts/pfsense_creazioneimmagine.PNG)
+![pfsense_creazione](/assets/images/posts/pfsense_creazioneimmagine.PNG){ width=80% }
 > Please note the order of the added nics.
 > In this guide we'll use `pfSense_WAN` network in NIC1 and `pfSense_LAN` network in NIC2
-![pfSenseNetwork_Wan_Lan](/assets/images/posts/pfSenseNetwork_Wan_Lan.PNG)
+![pfSenseNetwork_Wan_Lan](/assets/images/posts/pfSenseNetwork_Wan_Lan.PNG){ width=80% }
 
 3. Reach the virtual terminal of the instance and follow the setup wizard on the terminal in order to setup pfSense. Remember the nic order to define which is WAN and which is LAN
 4. Once the multiselection menu appears, select the option “2”
 5. When this message appear "Should VLANs be set up now `[y|n]`?" You must type `N`
 6. When the system will prompt "Enter the WAN interface name or 'a' for auto-detection" you need to remember the order of added nics (2nd point), in our case WAN is the first selected so we will type `vtnet0`
-![pfsense_vtnet0_wan](/assets/images/posts/pfsense_vtnet0_wan.PNG)
+![pfsense_vtnet0_wan](/assets/images/posts/pfsense_vtnet0_wan.PNG){ width=80% }
 After that we will insert `vtnet1` for the LAN interface
-![pfsense_vtnet1_lan](/assets/images/posts/pfsense_vtnet1_lan.PNG)
+![pfsense_vtnet1_lan](/assets/images/posts/pfsense_vtnet1_lan.PNG){ width=80% }
 Then leave an empty space when it ask "Enter the Optional 1 interface name or 'a' for auto-detection"
-![pfsense_emptyspace](/assets/images/posts/pfsense_emptyspace.PNG)
+![pfsense_emptyspace](/assets/images/posts/pfsense_emptyspace.PNG){ width=80% }
 Type "Y" when it ask if "you want to preceed"
-![pfsense_proceed](/assets/images/posts/pfsense_proceed.PNG)
+![pfsense_proceed](/assets/images/posts/pfsense_proceed.PNG){ width=80% }
 
 7. Now you need to setup the interface(s) IP address, type "2"
-![pfsense_enterenoption](/assets/images/posts/pfsense_enterenoption.PNG)
+![pfsense_enterenoption](/assets/images/posts/pfsense_enterenoption.PNG){ width=80% }
 
 8. You need to setup only the LAN address, you will see the available interfaces and you need to insert the number of the LAN interface (in our test, 2)
-![pfsense_onlylan](/assets/images/posts/pfsense_onlylan.PNG)
+![pfsense_onlylan](/assets/images/posts/pfsense_onlylan.PNG){ width=80% }
 
 9. Setup the same address and subnet which is assigned by Neutron to the machine. You can see it from the overview of the machine in the “Instance” section of Horizon
-![pfsense_horizon](/assets/images/posts/pfsense_horizon.PNG)
-
+![pfsense_horizon](/assets/images/posts/pfsense_horizon.PNG){ width=80% }
 in our test the IP assigned by Neutron is `192.168.193.4`, as you can see from the image below
-![pfsense_lanip](/assets/images/posts/pfsense_lanip.PNG)
+![pfsense_lanip](/assets/images/posts/pfsense_lanip.PNG){ width=80% }
 then you need to insert the subnet, in our case is /24 so we'll insert `24`
-![pfsense_lansubnet](/assets/images/posts/pfsense_lansubnet.PNG)
+![pfsense_lansubnet](/assets/images/posts/pfsense_lansubnet.PNG){ width=80% }
 Just leave the empty field in the other requests
-
 10. You shouldn't enable the DHCP server on LAN because when you need to create any server on the `pfSense_LAN` you will select the Network LAN `pfSense_LAN` and the server will have an IP of the same LAN subnet
-![pfsense_noenableDHCP](/assets/images/posts/pfsense_noenableDHCP.PNG)
+![pfsense_noenableDHCP](/assets/images/posts/pfsense_noenableDHCP.PNG){ width=80% }
 You don't need to revert the HTTP as well, type `N`
-![pfsense_norevert](/assets/images/posts/pfsense_norevert.PNG)
+![pfsense_norevert](/assets/images/posts/pfsense_norevert.PNG){ width=80% }
 At this point just press Enter to finish the configuration
-![pfsense_finishlan](/assets/images/posts/pfsense_finishlan.PNG)
+![pfsense_finishlan](/assets/images/posts/pfsense_finishlan.PNG){ width=80% }
 
 11. In order to finish the setup, it's necessary to enable everything in the pfSense firewall in order to access the pfSense web UI; in order to do so:
 In the multisection menu, select "12". Type:
