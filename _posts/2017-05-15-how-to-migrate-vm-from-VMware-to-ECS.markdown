@@ -25,55 +25,48 @@ You need to execute these steps on a Linux machine as it requires qemu emulator 
 
 
 ## Steps
-1. Make sure your network settings are set to automatically get DHCP and then install the cloudinit agent on your OS.<br>
-(For example on Ubuntu 16 you can install it with `apt install cloud-init` and on Windows Machines you need to install Cloudbase-init, you need to remove the `sysprep` flag during the installation to avoid re-initializing your VM on the first boot - https://cloudbase.it/cloudbase-init/).<br>
+1. Before exporting the image, make sure the network settings of your VM are set to automatically get a dynamic address from DHCP and then install the cloudinit agent on the guest OS.<br>
+  - on Ubuntu 16 install it with `apt install cloud-init`
+  - on Windows install the stable version of VirtIO drivers _`virtio-win iso`_(https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso), install `cloudbase-init`(https://cloudbase.it/cloudbase-init/) and remove the `sysprep` flag during the installation, in order to avoid re-initializing your VM on the first boot<br>
 Now you can export your VM from VMware into `.ova` format.<br>
-Note: For Windows based VMs you must install the stable version of VirtIO drivers (Stable `virtio-win iso`: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso).<br>
-Mount the `.iso` on the VM and proceed to install all the drivers you can find in the mounted iso (Drivers are manually installed through Windows).<br>
 <br>
-2. Extract the contents of .ova file, from Linux commandline: 
+2. Extract the contents of the `.ova` file, using the Linux command line: 
   - `tar -xvf VMware-machine.ova` 
   - `VMware-machine.ovf` 
   - `VMware-machine-disk1.vmdk`   
   - `VMware-machine.mf` 
-   
-3. Convert your VMware machine to a KVM supported format with qemu (qemi-img is available on qemu-utils, on an Ubuntu system you can just install qemu to run this command): 
+<br>  
+3. Convert your VMware machine to a KVM supported format with `qemu` (`qemu-img` is available from the  `qemu-utils` binary package): 
 ```shell
 qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
 ```
-   
-
-4. Test that your image is supported by KVM using Virt Manager:  
+<br>   
+4. 
+> This step is Mandatory for Windows based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step. 
+> On Linux systems you can avoid step 4 because drivers are already compatible for KVM.
+If your guest OS is Windows, on your local machine test that your image is supported by KVM using `virt-manager`:  
    - Create a new virtual machine --> import existing disk image --> Browse and select your `.qcow2` image  
-   - Set up the VM settings (RAM,CPU, network using default nat)  
-   - After the VM finished to boot the OS check if there are any issues with current drivers and if so proceed on the VM settings --> Add Hardware -> Storage -> Create a disk image for the virtual machine (create a small disk, for example 1GB). 
-Select `Disk device` and make sure that `Bus type` is set on `VirtIO`. 
-After the disk is attached, check if the guest OS has detected the disk; for this you can use the command line: 
-From a cmd prompt with administrator privileges issue the command:
-```shell
-diskpart
-``` 
-Once DiskPart has loaded, issue:
-```shell
-list disk
-```
-If you can see both disks (your main drive and the VirtIO one) the driver is working. 
-Shutoff the VM, proceed on the VM settings --> `IDE Disk 1` --> Advanced Options and set `Disk bus` to `Virtio`. 
-Remove also the VirtIO mini disk you've created before. 
-Try again to boot the machine and if it boots the image is ready to be uploaded to Swift. 
+   - Set up the VM settings (RAM, CPU, network using default nat)  
+   - After the VM completes the OS boot check if there are any issues with current drivers and, if so, proceed to VM settings --> Add Hardware -> Storage -> Create a disk image for the virtual machine (create a small disk, for example 1GB). This step is required in order to have the `VirtIO` drivers enabled at boot
+   - Select `Disk device` and make sure that `Bus type` is set on `VirtIO`
+   - After you have attached the disk, check if the guest OS has detected it by using this command with admin privileges: 
+    ```shell
+    diskpart
+    list disk
+    ```
+    If you can see both disks listed the driver is working properly and your main drive and the VirtIO one. 
+    Shutoff the VM, switch to VM settings --> `IDE Disk 1` --> Advanced Options and set `Disk bus` to `VirtIo`. 
+    Remove also the test `VirtIO` mini-disk you've created above.
+    Try again and boot the machine: if it boots up the image is ready.
+    You can now upload the image file (`VMware-machine-disk1.qcow2`) to Swift.
 
 ![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600){:class="img-responsive"}
 
-     
-5. Authenticate to Openstack API and upload your image into your tenant:
+<br>     
+5. Authenticate to Openstack API and upload your image into your tenant's private image repository:
 ```shell
-source youremail@domain-openrc.sh
+export OS_IMAGE_API_VERSION=1 && glance image-create --file VMware-machine-disk1.qcow2 --disk-format qcow2  --container-format bare --name "Import from VMware" --progress
 ```
-This source file can be downloaded from the Openstack Horizon Dashboard
-```shell
-export OS_IMAGE_API_VERSION=1 && glance image-create --file VMware-machine.qcow2 --disk-format qcow2  --container-format bare --name "Machine from vmware" --progress
-```
-    
-6. Now you can deploy your VM into our Openstack infrastructure and upon the first boot you need to check that network configuration has been set properly. 
-> This step is Mandatory for Windows based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step.        
-> On Linux systems you can avoid step 4 because drivers are already compatible for KVM.
+<br>   
+6. Now you can deploy your VM into our Openstack infrastructure by selecting your freshly uploaded template.
+Upon the first boot you need to check that network configuration has been set properly. <br>  
