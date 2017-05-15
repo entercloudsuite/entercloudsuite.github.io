@@ -42,6 +42,7 @@ qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
 ```
 <br>   
 4. 
+<br>  
 > This step is Mandatory for Windows based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step. 
 > On Linux systems you can avoid step 4 because drivers are already compatible for KVM.
 
