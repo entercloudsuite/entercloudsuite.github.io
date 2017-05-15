@@ -29,18 +29,18 @@ You need to execute these steps on a Linux machine as it requires qemu emulator 
 (For example on Ubuntu 16 you can install it with `apt install cloud-init` and on Windows Machines you need to install Cloudbase-init, you need to remove the `sysprep` flag during the installation to avoid re-initializing your VM on the first boot - https://cloudbase.it/cloudbase-init/ )
 Now you can export your VM from VMware into `.ova` format 
 Note: For Windows based VMs you must install the stable version of VirtIO drivers ( Stable `virtio-win iso`: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso ). Mount the `.iso` on the VM and proceed to install all the drivers you can find in the mounted iso (Drivers are manually installed through Windows). 
-
+   
 2. Extract the contents of .ova file, from Linux commandline: 
   - `tar -xvf VMware-machine.ova` 
   - `VMware-machine.ovf` 
   - `VMware-machine-disk1.vmdk`   
   - `VMware-machine.mf` 
-
+   
 3. Convert your VMware machine to a KVM supported format with qemu (qemi-img is available on qemu-utils, on an Ubuntu system you can just install qemu to run this command): 
 ```shell
 qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
 ```
-
+   
 
 4. Test that your image is supported by KVM using Virt Manager:  
    - Create a new virtual machine --> import existing disk image --> Browse and select your `.qcow2` image  
@@ -63,7 +63,7 @@ Try again to boot the machine and if it boots the image is ready to be uploaded 
 
 ![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600)
 
- 
+     
 5. Authenticate to Openstack API and upload your image into your tenant:
 ```shell
 source youremail@domain-openrc.sh
@@ -72,7 +72,7 @@ This source file can be downloaded from the Openstack Horizon Dashboard
 ```shell
 export OS_IMAGE_API_VERSION=1 && glance image-create --file VMware-machine.qcow2 --disk-format qcow2  --container-format bare --name "Machine from vmware" --progress
 ```
-
+    
 6. Now you can deploy your VM into our Openstack infrastructure and upon the first boot you need to check that network configuration has been set properly. 
 > This step is Mandatory for Windows based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step.        
 > On Linux systems you can avoid step 4 because drivers are already compatible for KVM.
