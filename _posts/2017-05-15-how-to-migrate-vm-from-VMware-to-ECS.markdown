@@ -63,7 +63,7 @@ Try again to boot the machine and if it boots the image is ready to be uploaded 
 
 ![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=800)
 
-
+ 
 5. Authenticate to Openstack API and upload your image into your tenant:
 ```shell
 source youremail@domain-openrc.sh
