@@ -19,17 +19,18 @@ This is the procedure to migrate virtual machines from a VMware based-infrastruc
 You need to execute these steps on a Linux machine as it requires qemu emulator for conversion and Virt manager to test the image if the Operative System doesn't automatically load KVM drivers. 
 
 ## Requirements
-- Linux system (in this guide i'll be using Ubuntu 16.10 Desktop to convert the VM disks)
+- Linux OS (in this guide i'll be using Ubuntu 16.10 Desktop to convert the VM disks)
 - qemu-utils
 - virt-manager
 
 
 ## Steps
-1. Make sure your network settings are set to automatically get DHCP and then install the cloudinit agent on your OS. 
-(For example on Ubuntu 16 you can install it with `apt install cloud-init` and on Windows Machines you need to install Cloudbase-init, you need to remove the `sysprep` flag during the installation to avoid re-initializing your VM on the first boot - https://cloudbase.it/cloudbase-init/ )
-Now you can export your VM from VMware into `.ova` format 
-Note: For Windows based VMs you must install the stable version of VirtIO drivers ( Stable `virtio-win iso`: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso ). Mount the `.iso` on the VM and proceed to install all the drivers you can find in the mounted iso (Drivers are manually installed through Windows). 
-   
+1. Make sure your network settings are set to automatically get DHCP and then install the cloudinit agent on your OS.<br>
+(For example on Ubuntu 16 you can install it with `apt install cloud-init` and on Windows Machines you need to install Cloudbase-init, you need to remove the `sysprep` flag during the installation to avoid re-initializing your VM on the first boot - https://cloudbase.it/cloudbase-init/).<br>
+Now you can export your VM from VMware into `.ova` format.<br>
+Note: For Windows based VMs you must install the stable version of VirtIO drivers (Stable `virtio-win iso`: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso).<br>
+Mount the `.iso` on the VM and proceed to install all the drivers you can find in the mounted iso (Drivers are manually installed through Windows).<br>
+<br>
 2. Extract the contents of .ova file, from Linux commandline: 
   - `tar -xvf VMware-machine.ova` 
   - `VMware-machine.ovf` 
