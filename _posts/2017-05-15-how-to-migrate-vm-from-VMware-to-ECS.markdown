@@ -27,7 +27,7 @@ You need to execute these steps on a Linux machine as it requires qemu emulator 
 ## Steps
 1. Before exporting the image, make sure the network settings of your VM are set to automatically get a dynamic address from DHCP and then install the cloudinit agent on the guest OS.<br>
   - on Ubuntu 16 install it with `apt install cloud-init`
-  - on Windows install the stable version of VirtIO drivers [https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso](`virtio-win iso`), install [https://cloudbase.it/cloudbase-init/](`cloudbase-init`) and remove the `sysprep` flag during the installation, in order to avoid re-initializing your VM on the first boot<br>
+  - on Windows install the stable version of VirtIO drivers [`virtio-win iso`](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso), install [`cloudbase-init`](https://cloudbase.it/cloudbase-init/) and remove the `sysprep` flag during the installation, in order to avoid re-initializing your VM on the first boot<br>
 Now you can export your VM from VMware into `.ova` format.<br>
 <br>
 2. Extract the contents of the `.ova` file, using the Linux command line: 
@@ -62,7 +62,7 @@ If your guest OS is Windows, on your local machine test that your image is suppo
     Remove also the test `VirtIO` mini-disk you've created above.
     Try again and boot the machine: if it boots up the image is ready.
     You can now upload the image file (`VMware-machine-disk1.qcow2`) to Swift.
-    - ![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600){:class="img-responsive"} 
+![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600){:class="img-responsive"} 
     <br>
 5. Authenticate to Openstack API and upload your image into your tenant's private image repository:
 ```shell
