@@ -35,7 +35,9 @@ Now you can export your VM from VMware into `.ova` format.<br>
   - `VMware-machine.ovf` 
   - `VMware-machine-disk1.vmdk`   
   - `VMware-machine.mf` 
+
 <br>  
+
 3. Convert your VMware machine to a KVM supported format with `qemu` (`qemu-img` is available from the  `qemu-utils` binary package): 
 ```shell
 qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
