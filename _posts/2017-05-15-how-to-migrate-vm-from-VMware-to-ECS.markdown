@@ -61,8 +61,7 @@ If your guest OS is Windows, on your local machine test that your image is suppo
     Remove also the test `VirtIO` mini-disk you've created above.
     Try again and boot the machine: if it boots up the image is ready.
     You can now upload the image file (`VMware-machine-disk1.qcow2`) to Swift.
-![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600){:class="img-responsive"}
-<br>     
+![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600){:class="img-responsive"} 
 5. Authenticate to Openstack API and upload your image into your tenant's private image repository:
 ```shell
 export OS_IMAGE_API_VERSION=1 && glance image-create --file VMware-machine-disk1.qcow2 --disk-format qcow2  --container-format bare --name "Import from VMware" --progress
