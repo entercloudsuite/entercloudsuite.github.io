@@ -61,7 +61,7 @@ Shutoff the VM, proceed on the VM settings --> `IDE Disk 1` --> Advanced Options
 Remove also the VirtIO mini disk you've created before. 
 Try again to boot the machine and if it boots the image is ready to be uploaded to Swift. 
 
-![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=800)
+![screenshot-virt-manger.jpg](/assets/images/posts/virt-manager.png?resize=600)
 
  
 5. Authenticate to Openstack API and upload your image into your tenant:
