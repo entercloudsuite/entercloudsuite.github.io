@@ -44,6 +44,7 @@ qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
 4. 
 > This step is Mandatory for Windows based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step. 
 > On Linux systems you can avoid step 4 because drivers are already compatible for KVM.
+
 If your guest OS is Windows, on your local machine test that your image is supported by KVM using `virt-manager`:  
    - Create a new virtual machine --> import existing disk image --> Browse and select your `.qcow2` image  
    - Set up the VM settings (RAM, CPU, network using default nat)  
