@@ -47,9 +47,9 @@ On **Linux systems you can avoid** step 4 because drivers are already compatible
 <br> 
 If your guest OS is Windows, on your local machine test that your image is supported by KVM using `virt-manager`:
    <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}virt-manager2.png">
-   - Create a new virtual machine --> import existing disk image --> Browse and select your `.qcow2` image  
+   - Create a new virtual machine → import existing disk image → Browse and select your `.qcow2` image  
    - Set up the VM settings (RAM, CPU, network using default nat)  
-   - After the VM completes the OS boot check if there are any issues with current drivers and, if so, proceed to VM settings --> Add Hardware -> Storage -> Create a disk image for the virtual machine (create a small disk, for example 1GB). This step is required in order to have the `VirtIO` drivers enabled at boot
+   - After the VM completes the OS boot check if there are any issues with current drivers and, if so, proceed to VM settings → Add Hardware → Storage → Create a disk image for the virtual machine (create a small disk, for example 1GB). This step is required in order to have the `VirtIO` drivers enabled at boot
    - Select `Disk device` and make sure that `Bus type` is set on `VirtIO`
    - After you have attached the disk, check if the guest OS has detected it by using this command with admin privileges: 
     ```shell
@@ -57,7 +57,7 @@ If your guest OS is Windows, on your local machine test that your image is suppo
     list disk
     ```
     If you can see both disks listed the driver is working properly and your main drive and the VirtIO one. 
-    Shutoff the VM, switch to VM settings --> `IDE Disk 1` --> Advanced Options and set `Disk bus` to `VirtIo`. 
+    Shutoff the VM, switch to VM settings → `IDE Disk 1` → Advanced Options and set `Disk bus` to `VirtIo`. 
     Remove also the test `VirtIO` mini-disk you've created above.
     Try again and boot the machine: if it boots up the image is ready.
     You can now upload the image file (`VMware-machine-disk1.qcow2`) to Swift.
