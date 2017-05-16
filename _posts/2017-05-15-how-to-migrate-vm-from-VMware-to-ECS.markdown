@@ -48,7 +48,7 @@ qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
 > On Linux systems you can avoid step 4 because drivers are already compatible for KVM.
 
 If your guest OS is Windows, on your local machine test that your image is supported by KVM using `virt-manager`:
-![screenshot-virt-manager.jpg](/assets/images/posts/virt-manager2.png?resize=600){:class="img-responsive"}   
+   <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}virt-manager2.png">
    - Create a new virtual machine --> import existing disk image --> Browse and select your `.qcow2` image  
    - Set up the VM settings (RAM, CPU, network using default nat)  
    - After the VM completes the OS boot check if there are any issues with current drivers and, if so, proceed to VM settings --> Add Hardware -> Storage -> Create a disk image for the virtual machine (create a small disk, for example 1GB). This step is required in order to have the `VirtIO` drivers enabled at boot
@@ -63,7 +63,7 @@ If your guest OS is Windows, on your local machine test that your image is suppo
     Remove also the test `VirtIO` mini-disk you've created above.
     Try again and boot the machine: if it boots up the image is ready.
     You can now upload the image file (`VMware-machine-disk1.qcow2`) to Swift.
-![screenshot-virt-manager.jpg](/assets/images/posts/virt-manager.png?resize=600){:class="img-responsive"} 
+    <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}virt-manager.png"> 
     <br>
 5. Authenticate to Openstack API and upload your image into your tenant's private image repository:
 ```shell
