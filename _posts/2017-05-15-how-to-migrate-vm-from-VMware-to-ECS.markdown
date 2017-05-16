@@ -42,8 +42,8 @@ Now you can export your VM from VMware into `.ova` format.<br>
 qemu-img convert -O qcow2 VMware-machine-disk1.vmdk VMware-machine-disk1.qcow2
 ```
 <br>   
-4. **NOTE WELL:** _This step is Mandatory for Windows based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step.<br> 
-On Linux systems you can avoid step 4 because drivers are already compatible for KVM._
+4. **NOTE WELL:** _This step is **Mandatory for Windows** based systems as they require VirtIO drivers to work on KVM hypervisor whereas on Linux systems you can avoid this testing/driver installation step. 
+On **Linux systems you can avoid** step 4 because drivers are already compatible for KVM._
 <br> 
 If your guest OS is Windows, on your local machine test that your image is supported by KVM using `virt-manager`:
    <img class="responsive-guide-img" src="{{ site.baseurl_posts_img }}virt-manager2.png">
