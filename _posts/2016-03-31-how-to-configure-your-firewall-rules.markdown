@@ -7,7 +7,7 @@ excerpt: "Configure your firewall rules with Enter Cloud Suite."
 categories: computing
 tags:
 image:
-  feature: firewall.jpg
+  feature: firewalls.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter

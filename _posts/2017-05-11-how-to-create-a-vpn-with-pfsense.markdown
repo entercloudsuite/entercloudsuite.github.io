@@ -7,7 +7,7 @@ excerpt: "Manage your networks with Enter Cloud Suite."
 categories: networks
 tags:
 image:
-  feature: networks.jpg
+  feature: firewalls.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter

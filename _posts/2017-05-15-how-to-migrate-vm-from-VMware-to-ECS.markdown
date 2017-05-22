@@ -7,7 +7,7 @@ excerpt: "Migration from VMware to ECS"
 categories: migrations
 tags:
 image:
-  feature: networks.jpg
+  feature: tools.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
