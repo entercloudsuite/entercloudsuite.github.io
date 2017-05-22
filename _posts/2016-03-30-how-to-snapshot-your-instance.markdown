@@ -7,7 +7,7 @@ excerpt: "Snapshot your instance with Enter Cloud Suite."
 categories: computing
 tags:
 image:
-  feature: snapshot.jpg
+  feature: images.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: lighter
