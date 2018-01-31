@@ -3,7 +3,7 @@ layout: post
 title:  "How to use Swift with S3 compatibility"
 date:   2018-01-31 15:00:00
 last_modified_at:  2018-01-31 15:00:00
-excerpt: "How to use Swift with S3
+excerpt: "How to use Swift with S3"
 categories: object-storage
 tags:
 image:
